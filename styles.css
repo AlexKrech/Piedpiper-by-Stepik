@@ -1,0 +1,239 @@
+    .hat {
+        background-color: #007765;
+        background-size: cover;
+        position: sticky;
+        width: 100%;
+        height: 84px;
+        top: 0px;
+        z-index: 100;
+    }
+
+
+    .hat .content {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+
+    }
+
+    .hat .Icon {
+        display: flex;
+        align-items: center;
+    }
+
+    .hat img.Component1 {
+        position: absolute;
+        height: 45px;
+        width: 45px;
+    }
+
+    .hat img.Component2 {
+        height: 45px;
+        width: 185px;
+    }
+
+    .hat p {
+        display: inline-block;
+        font-size: 1.5rem;
+        color: white;
+        font-family: sans-serif;
+        margin: 0px;
+    }
+
+    .hat .Menu {
+        display: flex;
+        align-items: center;
+    }
+
+    .hat p.theTeam {
+
+        border-left: 2px solid white;
+        padding-left: 10px;
+    }
+
+    .hat p.PiedPiperCoin {
+
+        border-left: 2px solid white;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .hat p.theProblem {
+
+        padding-right: 10px;
+    }
+
+    div#PiedPiperCoin:target{padding-top:50px}
+    div#theTeam:target{padding-top:10px}
+
+    .content {
+        max-width: 1219px;
+        padding-left: 55px;
+        padding-right: 55px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Clear {
+        clear: both;
+    }
+
+    .Logo {
+        background: url(pictyres/top/image.png);
+        background-size: cover;
+        width: 100%;
+        height: 473px;
+        position: relative;
+
+    }
+
+    .LogoText {
+        position: absolute;
+        color: white;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .LogoText h1 {
+        font-size: 4rem;
+        margin-top: -2rem;
+        font-family: sans-serif;
+        font-weight: 200;
+    }
+
+    .MainContent .Text h1 {
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 4rem;
+        color: #007765;
+        font-weight: 550;
+    }
+
+    .MainContent .Text p {
+        font-family: sans-serif;
+        font-size: 2rem;
+    }
+
+    .MainContent {
+        background-color: #EEEEEE;
+        padding: 50px 0;
+    }
+
+    .Text {
+        padding: 0 55px;
+    }
+
+    .Concept .Text p {
+        font-family: sans-serif;
+        font-size: 3.8rem;
+        font-style: italic;
+        color: white;
+        text-align: center;
+        font-weight: 500;
+        line-height: 56px;
+    }
+
+    .Concept {
+        background-image: url(pictyres/Concept/image.png);
+        background-size: cover;
+        background-position: center center;
+        padding-top: 128px;
+        padding-bottom: 128px;
+    }
+
+    .IntrodusingCoin h1 {
+        font-size: 4rem;
+        text-align: center;
+        color: #007765;
+        font-family: sans-serif;
+        font-weight: 540;
+    }
+
+    .CoinAndText img {
+        float: left;
+        width: 115px;
+        height: 115ps;
+        margin: 35px;
+    }
+
+    .Clear {
+        clear: both;
+    }
+
+
+    .CoinAndText p {
+        font-size: 2rem;
+        font-family: sans-serif;
+    }
+
+    .CoinAndText {
+        display: inline-block;
+    }
+
+
+    .IntrodusingCoin p {
+        font-size: 2rem;
+        font-family: sans-serif;
+    }
+
+    .OurTeam h1 {
+        font-size: 4rem;
+        text-align: center;
+        color: #007765;
+        font-family: sans-serif;
+        font-weight: 540;
+        padding-top: 50px;
+    }
+
+    .OurTeam {
+        background-color: #EEEEEE;
+    }
+
+    .TeamDiscription {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .Person {
+        display: inline-block;
+        height: 280px;
+        width: 350px;
+        margin: 30px 25px 100px;
+    }
+
+    .Person .Name {
+        font-size: 2rem;
+        text-align: center;
+        color: #007765;
+        font-family: sans-serif;
+        font-weight: 550;
+        margin-bottom: 10px;
+    }
+
+    .Person .Position {
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: sans-serif;
+        margin-top: 10px;
+        font-style: italic;
+    }
+
+    .Person img {
+        height: 200px;
+        width: 200px;
+        margin-left: 75px;
+    }
+
+    .Footer {
+        background-color: #333333;
+        padding: 20px 0;
+    }
+
+    .Footer p {
+        font-family: sans-serif;
+        color: white;
+        text-align: center;
+
+    }
